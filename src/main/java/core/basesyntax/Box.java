@@ -1,16 +1,16 @@
 package core.basesyntax;
 
-public class Box {
-    private Object value;
+public class Box<T> {
+    private T value;
 
     public Box(){
     }
 
-    public Object getValue() {
+    public T getValue() {
         return value;
     }
 
-    public Box setValue(Object value) {
+    public Box setValue(T value) {
         this.value = value;
         return this;
     }

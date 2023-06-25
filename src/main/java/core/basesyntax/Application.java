@@ -2,10 +2,6 @@ package core.basesyntax;
 
 import core.basesyntax.impl.StorageImpl;
 
-import javax.swing.*;
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 public class Application {
     public static void main(String[] args) {
         Storage<Integer, Box> storage = new StorageImpl<>();
